@@ -10,19 +10,15 @@
   overflow: hidden;
 }
 
-.catalog__decor-dots {
+.catalog__bg-decor {
   position: absolute;
-  top: clamp(41px, 4.12vw, 79px);
-  right: -18px;
-  width: clamp(80px, 7.45vw, 143px);
-  height: clamp(58px, 5.47vw, 105px);
-  background-image: radial-gradient(circle, $color-card-bg 2px, transparent 2px);
-  background-size: 12px 12px;
-  transform: rotate(15deg);
-  transform-origin: bottom right;
-  opacity: 0.9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
   pointer-events: none;
   z-index: -1;
+  display: block;
 }
 
 .catalog__decor-halfcircles {
