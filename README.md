@@ -2,13 +2,6 @@
 
 Pixel-perfect верстка каталога онлайн-курсов по макету Figma.
 
-## Технологии
-
-- HTML + BEM
-- SCSS → CSS (Sass)
-- Vanilla JS
-- Playwright (скриншотные тесты)
-
 ## Установка
 
 ```bash
