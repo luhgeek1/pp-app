@@ -1,0 +1,21 @@
+{
+  "name": "pp-app",
+  "version": "1.0.0",
+  "description": "Online courses catalog — pixel-perfect BEM layout",
+  "scripts": {
+    "build": "sass scss/main.scss css/main.css --style=compressed",
+    "watch": "sass scss/main.scss css/main.css --watch",
+    "dev": "sass scss/main.scss css/main.css --watch --style=expanded",
+    "start": "http-server . -p 8080 -c-1 --silent",
+    "screenshots": "playwright test tests/screenshots.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/pngjs": "^6.0.5",
+    "http-server": "^14.1.1",
+    "pixelmatch": "^7.2.0",
+    "pngjs": "^7.0.0",
+    "sass": "^1.77.0",
+    "typescript": "^5.4.5"
+  }
+}
