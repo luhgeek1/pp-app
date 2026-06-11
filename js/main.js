@@ -198,7 +198,7 @@ class CourseCatalog {
       const li = document.createElement('li');
       li.className = 'filter__tab';
       li.dataset.category = cat;
-      li.innerHTML = `${cat}<sup class="filter__tab-count">${count}</sup>`;
+      li.innerHTML = `${cat} <sup class="filter__tab-count">${count}</sup>`;
       this._filterTabs.appendChild(li);
     });
 
