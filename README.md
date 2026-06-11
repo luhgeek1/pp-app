@@ -54,4 +54,4 @@ Pixel match: 98.45%  (diff pixels: 1823 / 3624960)
 
 ## Деплой на Netlify
 
-
+https://pappw.netlify.app/
